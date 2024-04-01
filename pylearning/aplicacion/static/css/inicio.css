@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    background-color: rgb(13, 13, 107);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 6px 10%;
+}
+
+.header .logo img{
+    height: 100px;
+    width: auto;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
